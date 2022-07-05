@@ -8,7 +8,7 @@ class JobType(str, Enum):
     COLLECTION = "collection"
 
 
-class Job(BaseModel):
+class JobCreate(BaseModel):
     customer: str
     site: str
     due_date: datetime

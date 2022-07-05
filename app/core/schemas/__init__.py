@@ -1,1 +1,1 @@
-from .job import Job, JobType
+from .job import JobCreate, JobType
